@@ -29,6 +29,8 @@ npm install
 
 Set region and endpoint in SeaweedUploaderS3API.ts
 
+and then to pack and run the app:
+
 ~~~~powershell
 npx snowpack dev --polyfill-node
 ~~~~
