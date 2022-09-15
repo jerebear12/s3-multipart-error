@@ -1,6 +1,6 @@
 # How To
 
-**to Run:**
+## To Run
 
 Install node modules
 
@@ -20,7 +20,8 @@ and then to pack and run the app:
 npx snowpack dev --polyfill-node
 ~~~~
 
-**Current Bug**
+## Current Bug
+
 to fix:
 Uncaught SyntaxError: The requested module `'/_snowpack/pkg/@aws-crypto.sha1-browser.v2.0.0.js' does not provide an export named 'Sha1' (at @aws-sdk.client-s3.v3.170.0.js:22:10)`
 
