@@ -3,8 +3,8 @@ import { Upload } from '@aws-sdk/lib-storage';
 
 async function UploadFile(file: File, fileName: string, onProgress: (progress: number) => void) {
   const s3client = new S3Client({
-    region: 'example',
-    endpoint: "http://example.com/",
+    region: 'us-east-2',
+    endpoint: "http://172.24.177.189:8333",
     credentials: {
       // This works for seaweed
       accessKeyId: "any",
