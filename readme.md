@@ -5,7 +5,7 @@
 Install node modules
 
 ~~~~powershell
-cd snowpack-folder
+cd app
 ~~~~
 
 ~~~~powershell
